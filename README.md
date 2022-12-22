@@ -26,4 +26,5 @@ Note: If warning messages in red boxes show up in the notebook once the code has
 
 Code:
 
-import warnings warnings.simplefilter(action='ignore', category=FutureWarning) 
+import warnings 
+warnings.simplefilter(action='ignore', category=FutureWarning) 
